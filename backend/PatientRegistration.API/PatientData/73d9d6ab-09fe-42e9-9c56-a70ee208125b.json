@@ -1,0 +1,19 @@
+{
+  "Id": "73d9d6ab-09fe-42e9-9c56-a70ee208125b",
+  "FirstName": "Johnss",
+  "LastName": "Doe",
+  "DateOfBirth": "1985-08-15T00:00:00",
+  "Gender": "Male",
+  "Email": "johndoe@example.com",
+  "PhoneNumber": "123-456-7890",
+  "Address": {
+    "Street": "123 Main St",
+    "State": "IL"
+  },
+  "MedicalHistory": "No significant medical history.",
+  "Allergies": "Peanuts",
+  "EmergencyContact": {
+    "Name": "Jane Doe",
+    "Phone": "098-765-4321"
+  }
+}

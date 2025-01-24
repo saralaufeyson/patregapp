@@ -1,0 +1,21 @@
+{
+  "Id": "39b38050-7a8b-4eef-a0ae-b8b649efe379",
+  "FirstName": "s",
+  "LastName": "f",
+  "DateOfBirth": "2025-01-01T00:00:00",
+  "Gender": "Female",
+  "Email": "a@gmail.com",
+  "PhoneNumber": "2344455632",
+  "Address": {
+    "Street": "#5",
+    "City": "sss",
+    "State": "Haryana",
+    "ZipCode": "444"
+  },
+  "MedicalHistory": "non",
+  "Allergies": "miu",
+  "EmergencyContact": {
+    "Name": "s f",
+    "Phone": "2344455632"
+  }
+}

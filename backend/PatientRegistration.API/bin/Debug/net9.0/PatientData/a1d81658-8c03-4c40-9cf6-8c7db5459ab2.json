@@ -1,0 +1,19 @@
+{
+  "Id": "a1d81658-8c03-4c40-9cf6-8c7db5459ab2",
+  "FirstName": "John",
+  "LastName": "Doe",
+  "DateOfBirth": "1990-01-01T00:00:00",
+  "Gender": "Male",
+  "Email": "johndoe@example.com",
+  "PhoneNumber": "9876543210",
+  "Address": {
+    "Street": "123 Main Street",
+    "State": "California"
+  },
+  "MedicalHistory": "Hypertension",
+  "Allergies": "Peanuts",
+  "EmergencyContact": {
+    "Name": "Jane Doe",
+    "Phone": "9876543211"
+  }
+}

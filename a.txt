@@ -1,0 +1,23 @@
+import { Injectable } from '@angular/core'
+import { Observable } from 'rxjs';
+import { Patient } from '../models/patient.model';
+import { ApiResponse } from '../models/api-response.model';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+
+@Injectable({
+  providedIn: 'root'
+})
+const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
+export class PatientService {
+  private apiUrl = 'http://localhost:5055/api/Patient';
+
+  constructor(private http: HttpClient) { }
+
+  registerPatient(patient: Patient): Observable<ApiResponse> {
+    return this.http.post<ApiResponse>(`${this.apiUrl}/RegisterPatient`, patient);
+  }
+
+  getPatient(id: string): Observable<Patient> {
+    return this.http.get<Patient>(`${this.apiUrl}/${id}`);
+  }
+}

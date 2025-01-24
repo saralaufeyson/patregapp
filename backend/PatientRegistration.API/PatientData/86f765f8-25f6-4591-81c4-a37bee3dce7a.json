@@ -1,0 +1,21 @@
+{
+  "Id": "86f765f8-25f6-4591-81c4-a37bee3dce7a",
+  "FirstName": "Johnss",
+  "LastName": "Doe",
+  "DateOfBirth": "1985-08-15T00:00:00",
+  "Gender": "Male",
+  "Email": "johndoe@example.com",
+  "PhoneNumber": "123-456-7890",
+  "Address": {
+    "Street": "123 Main St",
+    "City": "Springfield",
+    "State": "IL",
+    "ZipCode": "62701"
+  },
+  "MedicalHistory": "No significant medical history.",
+  "Allergies": "Peanuts",
+  "EmergencyContact": {
+    "Name": "Jane Doe",
+    "Phone": "098-765-4321"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "725b4cef-e7bf-46c1-97aa-1910253c3759",
+  "FirstName": "s",
+  "LastName": "f",
+  "DateOfBirth": "2025-01-10T00:00:00",
+  "Gender": "Female",
+  "Email": "a@gmail.com",
+  "PhoneNumber": "2344455632",
+  "Address": {
+    "Street": "#5",
+    "State": "Madhya Pradesh"
+  },
+  "MedicalHistory": "sq",
+  "Allergies": "wsc",
+  "EmergencyContact": {
+    "Name": "s f",
+    "Phone": "2344455632"
+  }
+}
