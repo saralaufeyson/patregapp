@@ -54,3 +54,5 @@ C:\Users\lkanchi\Downloads\New folder\backend\PatientRegistration.API\bin\Debug\
 C:\Users\lkanchi\Downloads\New folder\backend\PatientRegistration.API\bin\Debug\net9.0\SharpCompress.dll
 C:\Users\lkanchi\Downloads\New folder\backend\PatientRegistration.API\bin\Debug\net9.0\Snappier.dll
 C:\Users\lkanchi\Downloads\New folder\backend\PatientRegistration.API\bin\Debug\net9.0\ZstdSharp.dll
+C:\Users\lkanchi\Downloads\New folder\backend\PatientRegistration.API\obj\Debug\net9.0\PatientRegistration.API.sourcelink.json
+C:\Users\lkanchi\Downloads\New folder\backend\PatientRegistration.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

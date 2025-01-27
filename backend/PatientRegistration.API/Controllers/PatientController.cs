@@ -16,10 +16,12 @@ namespace PatientRegistration.API.Controllers
         private readonly IMongoCollection<Patient> _patientCollection;
         //private readonly ILogger<PatientController> _logger;
 
-        public PatientController ()
-        {
-            var connectionString = "mongodb+srv://root:123@cluster0.o77wt.mongodb.net/";
-        var databaseName = "db0";
+        public PatientController (IConfiguration configuration)
+
+        { var connectionString = configuration.GetSection("MongoDbSettings:ConnectionString").Value;
+        var databaseName = configuration.GetSection("MongoDbSettings:DatabaseName").Value;
+        //     var connectionString = "mongodb+srv://root:123@cluster0.o77wt.mongodb.net/";
+        // var databaseName = "db0";
  
         var client = new MongoClient(connectionString);
         var database = client.GetDatabase(databaseName);

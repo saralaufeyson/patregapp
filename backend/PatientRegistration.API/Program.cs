@@ -4,11 +4,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();
 
+var corsClients = builder.Configuration.GetSection("CORSSettings:AllowedOrigins").Value;
 // Configure CORS policy to explicitly allow localhost:4200
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
-        policy.WithOrigins("http://localhost:4200") // Specify the frontend URL explicitly
+        policy.WithOrigins(corsClients) // Specify the frontend URL explicitly
               .AllowAnyMethod() // Allow all HTTP methods
               .AllowAnyHeader() // Allow all headers
               .AllowCredentials()); // Optional: Only if credentials like cookies/auth headers are needed

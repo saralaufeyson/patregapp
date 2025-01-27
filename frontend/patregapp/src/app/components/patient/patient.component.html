@@ -7,10 +7,16 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+    <header class="bg-blue-900 text-white py-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-3xl font-semibold">Patient Registration Form</h1>
+            <p class="mt-2 text-lg">Please fill in the details to register</p>
+        </div>
+    </header>
     <!-- patient.component.html -->
     <div class="min-h-screen bg-gray-50 py-8">
         <div class="max-w-3xl mx-auto px-4">
-            <h1 class="text-3xl font-bold text-gray-900 mb-8">Patient Registration Form</h1>
+            <!-- <h1 class="text-3xl font-bold text-gray-900 mb-8">Patient Registration Form</h1> -->
             
             <form [formGroup]="patientForm" (ngSubmit)="onSubmit()" class="bg-white shadow-md rounded-lg p-6 space-y-6">
                 <!-- Personal Details -->
@@ -143,5 +149,10 @@
             </form>
         </div>
     </div>
+    <footer class="bg-gray-800 text-white py-4 mt-8">
+        <div class="max-w-7xl mx-auto text-center">
+            <p class="text-sm">&copy; 2025 Patient Registration Form. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
