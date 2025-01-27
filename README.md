@@ -48,7 +48,7 @@ This project is a proof of concept (PoC) for creating a Patient Registration For
 ```
 dotnet run
 ```
-###Frontend setup
+### Frontend setup
 Navigate to the /client folder:
 ```
 cd /client
@@ -63,7 +63,7 @@ ng serve
 ```
 Access the application at http://localhost:4200.
 
-###MongoDB Setup
+### MongoDB Setup
 Set up your MongoDB cluster via MongoDB Atlas.
 Connect your backend to MongoDB by updating the connection string in the appsettings.json file of the backend.
 Testing
