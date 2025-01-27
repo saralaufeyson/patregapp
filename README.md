@@ -38,13 +38,13 @@ This project is a proof of concept (PoC) for creating a Patient Registration For
 
 ### Backend Setup
 
-1. Clone the repository:
-   ```git clone https://github.com/yourusername/patient-registration-form.git```
-2.Navigate to the /server folder:
+-1. Clone the repository:
+   ```git clone https://github.com/saralaufeyson/patregapp```
+-2.Navigate to the /server folder:
 ```cd /server```
-3.Install the required .NET dependencies:
+-3.Install the required .NET dependencies:
 ```dotnet restore```
-4.Run the backend server:
+-4.Run the backend server:
 ```
 dotnet run
 ```
